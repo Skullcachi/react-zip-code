@@ -39,7 +39,7 @@ function App() {
     event.preventDefault();
     setTouched(true);
     if (!error && inputValue.length === 5) {
-      alert('Form submitted successfully!');
+      alert(`Your zip code: ${inputValue} was submitted successfully!`);
     }
   };
 
