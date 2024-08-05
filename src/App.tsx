@@ -54,7 +54,7 @@ function App() {
             type="text"
             id="zipcode"
             name='zipcode'
-            maxLength="5"
+            maxLength={5}
             className='form-input'
             value={inputValue}
             onChange={handleChange}
